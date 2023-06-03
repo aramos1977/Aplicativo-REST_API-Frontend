@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+    background-color: #0971d2;
+    display: flex;
+    min-block-size: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.Titulo{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+}
+
+.Logo img{
+    block-size: 90px;
+    margin-inline-end: 10px;
+    border-radius: 80px;
+}
+
+.NombreEmpresa{
+     color: #f9f9f9;
+}
+
+nav a{
+    font-weight: 600;
+    padding-inline-end: 10px;
+    color:  #f9f9f9;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #535759;
+}
+
+img{
+    max-inline-size: 200px;
+    padding: 10px;
+}
+
+
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+
+nav{
+    padding: 10px 0px;
+}
+
+body {
+    background-color: #3db8cb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+h1 {
+    color: #333333;
+    text-align: center;
+}
+form {
+    background-color: #dfd6d6;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    box-shadow: 0px 0px 10px #AAAAAA;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333333;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="date"] {
+    padding: 10px;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #0070C0;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #003F7F;
+}
+
+input[type="reset"] {
+    background-color: #0070C0;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    float: right;
+
+}
+
+input[type="reset"]:hover {
+    background-color: #003F7F;
+}
+/* ------------------ FOOTER */
+
+ /* aca se works con el Footer - Pie de Pag */
+
+/* aca se works el color de los email */
+.email{
+    color: #1900fd;
+    font-size: 14px;
+  }
+  .email-educational{
+    color:#1900fd;
+  }
+
+  .email:hover{
+    color: #eede06;
+
+  }
+
+  .email-educational:hover{
+    color: #ead704;
+  }
+  /* aca se works el color de los email */
+.container-contact{
+    background-color: #133e5d;
+    color:#fffdfd;
+    padding:10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: start;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    block-size: 100px;
+  }
+  
+  /* aca se works con el footer o el pie de pag */
+  footer {
+    background-color: #133e5d;
+    color:#f9f9f9;
+    inline-size: 100%;
+    margin:0px;
+    padding:20px 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    
+  }

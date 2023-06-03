@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Agenda de Citas Médicas</title>
+            <link href="css/citas.css" rel="stylesheet">
+        </head>
+        
+        <body>
+            <h1 class="Titulo">Agenda de Citas Médicas</h1>
+            <header>
+             <div class="Logo">
+             <img src="img/iconMedical.jpg" alt="">
+             <h2 class="NombreEmpresa">Agenda de Citas Médicas</h2>
+             </div>
+             <nav>
+             <a href="AgendarCita.html"class="nav-link">Agendar Cita</a>
+             <a href="Medicos.html"class="nav-link">Medicos</a>
+             <a href="Especialidades.html"class="nav-link">Especialidades</a>
+             <a href="Pacientes.html"class="nav-link">Paciente</a>
+             <a href="Registro.html"class="nav-link">Registro</a>
+             <a href="Usuario.html"class="nav-link">Usuario</a> 
+            </nav>
+            </header>
+            <br>
+            <br>
+            <h1>Bienvenido... Agenda su cita médica</h1>
+        <form action="registrar_paciente" method="post">
+        <select>
+            <option value="Tipo_Documento">Tipo de Documento</option>
+            <option value="Cedula">Cedula</option>
+            <option value="Tarjeta Identidad">T.I</option>
+            <option value="Registro Civil">Registro Civil</option>
+            <option value="NIT">NIT</option>
+      </select>
+        <br>
+        <br>
+        <label for="number">Número Documento:</label>
+        <input type="number" id="number" name="number">
+        <br>
+        <br>
+        <label for="trip-start">Fecha Agendamiento</label>
+        <input type="date" id="trip-start" name="trip-start" 
+            value="2024-12-31"
+            min="1600-01-01" max="2024-12-31">
+        <br>
+        <label for="myname">Nombres:</label>
+        <input type="text" id="myname" name="myname">
+        <br>
+        <label for="surname">Apellidos:</label>
+        <input type="text" id="surname" name="surname">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+        <label for="mobile">Teléfono:</label>
+        <input type="tel" id="mobile" name="mobile">
+        <br>
+        <br>
+        <br>
+        <div class="formulario__grupo formulario__grupo-btn-enviar">
+            <button type="submit" class="formulario__btn">Enviar</button>
+            
+        </div>
+        
+    </form>
+    
+            <br>
+            
+        <!-- ###  FOOTER #### -->
+<footer>
+	<section class="container-contact">
+	<ul>
+		<li>CONTACTO</li>
+		<li>Alexander Ramos</li>
+		<li> <a href= https://outlook.live.com/owa/ class="email"  target="_blank" rel="noreferrer noopener" aria-label="enlace externo"> Email: alexander.rl12@hotmail.com </a></li>
+		<li>cell phone: It has a Virus </li>
+		<li>Bogotá</li>
+	</ul>
+    <br>
+    
+	</section>
+    <section>      
+			
+		<div class="container-footer">
+			<div class="Copyright">
+				@ 2023 Todos los derechos Reservados| <a class="email-educational" href= https://agenciaatenea.gov.co/convocatorias/segunda-convocatoria-todos-la-u target="_blank" rel="noreferrer noopener" aria-label="enlace externo"> Todos a la U </a>         
+			<div class="information">
+				Información Compañia| Privacion y Politicas | Terminos y Condiciones
+			</div> 
+			</div>
+		</div>
+    </section>    
+</footer>
+<script src="js/script.js"></script>
+   
+    
+</body>
+</html>
